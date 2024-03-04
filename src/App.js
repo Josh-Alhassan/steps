@@ -33,6 +33,8 @@ const App = () => {
             <div className={step >= 3 ? "active" : ""}>3</div>
           </div>
 
+          {/* Just added a comment */}
+
           <p className="message">
             Step {step} : {messages[step - 1]}
           </p>
